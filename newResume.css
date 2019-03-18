@@ -1,0 +1,252 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:1rem;
+}
+header{
+	width:100%;
+	height:100vh;
+	/*background-color:#A0F6E7;*/
+	display: flex;
+	background:linear-gradient(to bottom right,#FAE9E9,#7F50F5) ;
+}
+section{
+	height:35rem;
+}
+footer{
+	height:25vh;
+	background-color:#383434;
+}
+.firstPage{
+	width: 80rem;
+	height: 30rem;
+	margin:auto;
+	/*background-color: #D8E167;*/
+	position: relative;
+}
+.photo{
+	width:8rem;
+	height:8rem;
+	border-radius:50%;
+	background-image: url("images/myphoto.gif");
+	background-size: 8rem 8rem;
+	margin:20px auto;
+}
+.name{
+	color:white;
+	font-size: 3.25rem; 
+	text-align:center;
+	text-shadow: 2px 2px 4px #000000;
+	/*margin:20px auto;	*/
+}
+.short-intro{
+	margin-top:2rem;
+	font-size:2rem;
+	text-align: center;
+	height:3rem;
+}
+.line{
+	width: 0.3rem;
+	height: 3rem;
+	background-color:#ffa500;
+	line-height: 3rem;
+	position: absolute;
+	left:70rem;
+	top:16.5rem;
+	animation: blinks 0.8s linear infinite
+}
+@keyframes blinks{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+section.info{
+	background: linear-gradient(to left top, #cebfaf, #767676);
+}
+.center-area{
+	width:80vw;
+	margin:0 10vw;
+	/*background-color: #D365D9;*/
+}
+.title{
+	padding-top:3rem;
+	padding-left:4rem;
+	font-size: 1.8rem;
+	color:white;
+}
+.top,.bottom{
+	padding:2rem 0;
+	margin-top:3rem;
+	margin-bottom:3rem;
+	margin-left:5rem;
+	height:5rem;
+	/*background: #E1DB6F;*/
+}
+.top{
+	background: url(images/seu.jpg) right no-repeat;
+	background-size: 8rem 8rem;
+	margin-right:5rem;
+}
+.bottom{
+	background: url(images/ncepu.jpg) left no-repeat;
+	background-size: 8rem 8rem;
+}
+.edu>li{
+	list-style: none;
+	display: inline-block;
+	line-height: 5rem;
+	padding:0 1rem;
+	font-size: 1.2rem;
+	color:white;
+}
+ul{
+	vertical-align:center;
+}
+.bottom ul{
+	padding-left:7.2rem;
+}
+.more{
+	display: inline-block;
+	width:6rem;
+	height:3rem;
+	line-height:3rem;
+	border:2px solid white;
+	border-radius:0.9rem;
+	color:white;
+	text-align: center;
+	font-size: 1.25rem;
+	text-decoration: none;
+}
+.info a:link,.info a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.info a:hover,.info a:active{
+	color:#1A1919;
+	background-color: #fff;
+}
+
+section.skill1,section.skill2{
+	background: #E4E8ED;
+	height: 28rem;
+}
+section.skill2{
+	background: #C7DAF1;
+}
+.title-skill{
+	text-align: center;
+	font-size: 2.5rem;
+	color:#0C258E;
+}
+.circle-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:3rem 0;
+}
+.circle{
+	/*display: inline-block;*/
+	/*margin:auto;*/
+	/*background: #F7D0D0*/
+}
+.circle-part{
+	display: inline-block;
+	text-align: center;
+	width:6rem;
+	height:6rem;
+	line-height: 6rem;
+	border-radius: 50%;
+	border:0.5rem solid #fff;
+	margin:3rem;
+	margin-bottom:1rem;
+	font-size: 1.1rem;
+	border-right-color:#F7D0D0;
+}
+.per50{
+	border-bottom-color:#F7D0D0;
+}
+.per75{
+	border-left-color:#F7D0D0;
+}
+.rate{
+	/*display: inline-block;*/
+	text-align: center;
+	width:6rem;
+	height:2rem;
+	margin:0 3.5rem;
+	font-size: 1.3rem;
+	font-weight: bold;	
+}
+.pro2{
+	background: linear-gradient(45deg, rgb(70, 80, 82), rgb(193, 193, 193))
+}
+.pro1{
+	background: linear-gradient(to left top, #efefef, #767676);
+
+}
+.left,.right{
+	/*display: inline-block;*/
+	font-size:0;
+}
+.left{
+	float: left;
+	width:45%;
+}
+.right{
+	float:right;
+	width:50%;
+}
+.right img{
+	padding-left: 5rem;
+	padding-top: 5rem;
+}
+.title-pro{
+	padding-top:4rem;
+	font-size: 3rem;
+	color:#fff;
+}
+.time{
+	padding-top:1.7rem;
+	font-size: 1.7rem;
+	color:#fff;
+}
+.list{
+	padding-left:2rem;
+	padding-top:2rem;
+}
+.list li{
+	font-size: 1.25rem;
+	color：#fff;
+}
+.pro a:link,.pro a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.pro a:hover,.pro a:active{
+	color:#1A1919;
+	background-color: #fff;
+}
+
+.container-footer{
+	padding:0 10vw;
+	display: flex;
+	justify-content: center;
+}
+.item{
+	width:20vw;
+	margin:3rem;
+}
+.btn{
+	margin-top:2rem;
+}
+.footer-title{
+	color:#fff;
+	font-size:1.35rem;
+	margin-bottom:1rem;
+}
+.text{
+	color:#fff;
+}

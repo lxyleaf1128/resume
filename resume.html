@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>my resume</title>
 	<link rel="stylesheet" href="resume.css">
+	<script src="resume.js"></script>
 </head>
 <body>
 	<div class="resume clear">
@@ -20,13 +21,19 @@
 				<h3>联系方式</h3>
 				<div class="content">
 					<ul>
-						<li class="item"><span class="item_name">Tel：</span><span class="item_value"><a href="#">18766668888</a></span></li>
-						<li class="item"><span class="item_name">QQ：</span><span class="item_value"><a href="https://connect.qq.com/">10xxxxx794</a></span></li>
-						<li class="item"><span class="item_name">Email：</span><span class="item_value"><a href="https://mail.163.com/">lxxxxxx@163.com</a></span></li>
-						<li class="item"><span class="item_name">Weibo：</span><span class="item_value"><a href="https://weibo.com/">爱喝芒果汁儿</a></span></li>
-						<li class="item"><span class="item_name">Github：</span><span class="item_value"><a href="https://github.com/">vvdddwde</a></span></li>
+						<li class="item"><span class="item_name">Tel：</span><span class="item_value"><a href="#" target="_blank">18766668888</a></span></li>
+						<li class="item"><span class="item_name">QQ：</span><span class="item_value"><a href="https://connect.qq.com/" target="_blank">10xxxxx794</a></span></li>
+						<li class="item"><span class="item_name">Email：</span><span class="item_value"><a href="https://mail.163.com/" target="_blank">lxxxxxx@163.com</a></span></li>
+						<li class="item"><span class="item_name">Weibo：</span><span class="item_value"><a href="https://weibo.com/" target="_blank">爱喝芒果汁儿</a></span></li>
+						<li class="item"><span class="item_name">Github：</span><span class="item_value"><a href="https://github.com/" target="_blank">vvdddwde</a></span></li>
 					</ul>
 				</div>
+			</section>
+			<section class="js">
+				<button class="btn" onclick="greet()">和我打招呼！</button>
+				<button class="btn" onclick="hobby()">点击查看我的爱好</button>
+				<p id="hello"></p>
+				<p id="likes"></p>
 			</section>
 		</div>
 		<div class="right">
